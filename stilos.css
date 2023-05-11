@@ -1,0 +1,21 @@
+body{background-color: #7FA3FB  ;user-select: none;}
+#titulo{font-style: oblique; text-align: center; padding-top: 10px; font-size: 60px; font-weight: bold;}
+#contenedorGrande{background-color: #AFC6FE 
+; margin-left: 100px; margin-right: 100px; height: 1000px; margin-top: 50px; margin-bottom: 
+250px; padding-right: 0px; width: 1138px; float: center;user-select: none; border-radius: 10px; border:solid black 3px;}
+#contenedor {display: grid;grid-gap: 0em;grid-template-rows: repeat(var(--grid-rows), 1fr);grid-template-columns: repeat(var(--grid-cols), 1fr);
+padding-left: 0px;padding-top: 0px;padding-bottom: 50px;float: left; user-select: none; 
+position: absolute; left: 11px; top: 8px;}
+#palabras{float: right;background-color: #AFC6FE; width: 200px; padding-top: 150px; margin-right: 140px;}
+.grid-item {padding: 1em;text-align: center; margin: 0.5px; border: solid black 2px;}
+nav {margin-left: 90px; margin-right: 0px;}
+nav ul {display: inline-block;margin: 0;zoom:1;display: inline;margin-right: 0px;}
+nav ul li:hover {background-color: black; /* Color de fondo sobre el boton */cursor: pointer;}
+nav li {float: left; border: 1px solid blue;background-color:#0000FF;margin-top: 10px;padding-left: 110px; padding-right: 110px;
+padding-top: 20px;padding-bottom: 20px;} 
+nav li a{text-decoration: none;font-style: oblique;font-weight: bold;font-size: 20px;color: white;}
+li{list-style: none;}
+div{display: block;}
+#cronometro {height: 50px;width:200px; float: right; margin-left: 800px; text-align: center; color: white; 
+  margin-top: 110px; position: absolute;}
+#imagen{float: left; margin-top: 30px; margin-left: 39px;}
